@@ -14,6 +14,9 @@ fruits = ["pomegranate", "cherry", "apricot", "Apple",
 
 nums = [800,80,1000,32,255,400,5,5000]
 
+print("nums: {}".format(nums))
+
+
 people = [
     ('Melinda', 'Gates', 'Gates Foundation', '1964-08-15'),
     ('Steve', 'Jobs', 'Apple', '1955-02-24'),
