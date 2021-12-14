@@ -4,6 +4,8 @@ user_name = input("What is your name: ")
 quest = input("What is your quest? ")
 print("{} seeks {}".format(user_name, quest))
 
+#  "\u00B0"  degree symbol
+
 raw_num = input("Enter number: ")  # <1>
 num = float(raw_num)  # <2>
 
