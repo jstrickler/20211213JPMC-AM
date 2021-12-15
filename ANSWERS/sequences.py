@@ -13,6 +13,10 @@ for c in ctemps:
 
 print()
 
+#      my_list = [ expr for var in iterable ]
 clean_fruits = [f.strip().lower() for f in fruits]
+print(clean_fruits)
 
+#      my_generator =    (    expr      for var in iterable )
+clean_fruits = (f.strip().lower() for f in fruits)
 print(clean_fruits)
